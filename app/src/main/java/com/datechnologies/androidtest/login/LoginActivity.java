@@ -75,13 +75,6 @@ public class LoginActivity extends AppCompatActivity {
                 @Override
                 public void onClick(View view) {
                     sendMessage(username.getText().toString(), password.getText().toString());
-                    //hash user and pw when you have time
-//                    if(username.getText().toString().equals("info@rapptrlabs.com") && password.getText().toString().equals("Test123")){
-//
-//                        //Toast.makeText(LoginActivity.this ,"Works", Toast.LENGTH_LONG).show();
-//                    }
-//                    else
-//                        Toast.makeText(LoginActivity.this ,"Username/Password does not exist", Toast.LENGTH_LONG).show();
                 }
             }
         );
